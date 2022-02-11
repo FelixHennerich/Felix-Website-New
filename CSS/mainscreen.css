@@ -54,12 +54,18 @@ hr{
     color: aqua;
 }
 
-.navigation-list li a{
+.navigation-ul1 li a{
     color: #CCCCCC;
     padding: 0 0 0 80px;
     text-decoration: none;
     position: relative;
     right: 80px;
+}
+.navigation-ul2 li a{
+    color: #CCCCCC;
+    text-decoration: none;
+    position: relative;
+    right: 5px;
 }
 
 .navigation-list li a:hover{
