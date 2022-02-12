@@ -1,5 +1,5 @@
 
-var delayInMilliseconds = 4000; //1000 = 1 second
+var delayInMilliseconds = 3950; //1000 = 1 second
 
 setTimeout(function() {
     sendSide();

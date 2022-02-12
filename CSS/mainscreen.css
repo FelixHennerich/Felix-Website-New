@@ -2,8 +2,20 @@
     font-family: serif;
 }
 
+h1{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    left: 17vw;
+    bottom: 35vh;
+    color: white;
+    font-size: 80px;
+    font-family: Calibri ;
+    width: 1000px;
+}
+
 .navigation-bar{
-    background-color: #373434;
+    background-color: #262424;
     width: 150px;
     height: 100vh;
     position: relative;
@@ -27,7 +39,7 @@ hr{
 .navigation-list ul{
     position: relative;
     top: 100px;
-    background-color: #373434;
+    background-color: #262424;
 }
 
 .navigation-ul1 li{
@@ -71,7 +83,6 @@ hr{
 .navigation-list li a:hover{
     color: aqua;
     text-decoration: none;
-
 }
 .toggle-button{
     position:absolute;
@@ -123,4 +134,25 @@ hr{
 }
 .felixicon{
     position:relative;
+}
+
+/*
+ALL HEADER
+*/
+
+.mb-1 {
+    color: grey;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 32vh;
+    font-family: 'Comic Sans MS';
+}
+.mb-2 {
+    color: grey;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 36vh;
+    font-family: 'Comic Sans MS';
 }
