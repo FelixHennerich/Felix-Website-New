@@ -1,21 +1,9 @@
 *{
     font-family: serif;
-}
-
-h1{
-    position: relative;
-    padding: 0px;
     margin: 0px;
-    left: 17vw;
-    bottom: 35vh;
-    color: white;
-    font-size: 80px;
-    font-family: Calibri ;
-    width: 1000px;
 }
-
 .navigation-bar{
-    background-color: #262424;
+    background-color: #111213;
     width: 150px;
     height: 100vh;
     position: relative;
@@ -39,7 +27,7 @@ hr{
 .navigation-list ul{
     position: relative;
     top: 100px;
-    background-color: #262424;
+    background-color: #111213;
 }
 
 .navigation-ul1 li{
@@ -135,24 +123,54 @@ hr{
 .felixicon{
     position:relative;
 }
+/*
+h1
+*/
+.s2div1{
+    display: flex;
+    position: relative;
+    left: 18vw;
+    bottom: 16vh;
+    color: white;
+    font-size: 80px;
+    font-family: Calibri ;
+}
+.s2div1 p:hover{
+    color: aqua;
+}
 
 /*
 ALL HEADER
 */
-
-.mb-1 {
-    color: grey;
+.mb-0{
+    color: #5e636e;
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 32vh;
-    font-family: 'Comic Sans MS';
+    bottom: 31vh;
+    font-family: 'La Belle Aurore', cursive;
+}
+.mb-1 {
+    color: #5e636e;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 17vh;
+    font-family: 'La Belle Aurore', cursive;
 }
 .mb-2 {
-    color: grey;
+    color: #5e636e;
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 36vh;
-    font-family: 'Comic Sans MS';
+    bottom: 14vh;
+    font-family: 'La Belle Aurore', cursive;
+}
+.mb-3 {
+    color: #5e636e;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 0vh;
+    font-family: 'La Belle Aurore', cursive;
 }
