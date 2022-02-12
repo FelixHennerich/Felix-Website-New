@@ -130,13 +130,22 @@ h1
     display: flex;
     position: relative;
     left: 18vw;
-    bottom: 16vh;
-    color: white;
+    bottom: 26vh;
+    color: #f1f3f9;
     font-size: 80px;
     font-family: Calibri ;
 }
 .s2div1 p:hover{
     color: aqua;
+}
+.s2div2 {
+    position: relative;
+    left: 19vw;
+    bottom: 24vh;
+    color: #8f96a3;
+    font-size: 25px;
+    width: 2000px;
+    font-family: monospace;
 }
 
 /*
@@ -147,7 +156,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 31vh;
+    bottom: 40vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-1 {
@@ -155,7 +164,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 17vh;
+    bottom: 26vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-2 {
@@ -163,10 +172,26 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 14vh;
+    bottom: 24vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-3 {
+    color: #5e636e;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 23.5vh;
+    font-family: 'La Belle Aurore', cursive;
+}
+.mb-4 {
+    color: #5e636e;
+    position: relative;
+    left: 17vw;
+    font-size: 17px;
+    bottom: 23.7vh;
+    font-family: 'La Belle Aurore', cursive;
+}
+.mb-30 {
     color: #5e636e;
     position: relative;
     left: 17vw;
