@@ -7,7 +7,6 @@
     width: 150px;
     height: 100vh;
     position: relative;
-    bottom: 20px;
 }
 
 .navigation-bar a {
@@ -122,6 +121,8 @@ hr{
 }
 .felixicon{
     position:relative;
+    background-color: #111213;
+    width: 150px;
 }
 /*
 h1
