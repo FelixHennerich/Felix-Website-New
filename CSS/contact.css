@@ -1,37 +1,83 @@
-.formdiv{
-    color: white;
-    border: 1px solid red;
+*{
+    margin: 0%;
+}
+
+/*
+
+==================
+
+Sidebar navigation
+
+==================
+
+*/
+h1{
+    color: #CCCCCC;
+    position: relative;
+    left: 300px;
+}
+
+
+.mainside{
+    background-color: #111213;
+    width: 150px;
+    height: 100vh;
+}
+.navigation-bar{
     position: absolute;
-    left: 47%;
-    bottom: 30vh;
-    scale: 2;
+    top: 40%;
 }
-.formdiv p{
+.navigation-list{
+    width: 150px;
+}
+.navigation-ul1{
+    display: contents;
+    width: 150px;
     text-align: center;
-    padding: 10px;
 }
-.inputfieldname{
-    width: 90%;
+.navigation-ul1 a{
+    color: #CCCCCC;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navigation-ul1 a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.navigation-ul1 hr{
+    width: 150px;
+    background-color: #6F6E6E;
+    height: 1px;
+    border: none;
+}
+.navigation-ul1 li{
     position: relative;
-    right: 1%;
-    margin: 10px;
+    top: 16px;
+    height: 55px;
 }
-.inputfieldtext{
-    width: 90%;
+.navigation-ul2 li{
     position: relative;
-    right: 1%;
-    height: 100px;
-    margin: 10px;
+    top: 70px;
+    scale: 1.2;
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    right: 6%;
 }
-.sb-1{
-    position: relative;
-    left: 40%;
-    padding: 10px;
-}
-@media (max-height: 800px) {
-    .formdiv{
-        scale: 1.5;
-    }
+.navigation-ul2 a{
+    color: #CCCCCC;
     
-    
 }
+.navigation-ul2 a:hover{
+    color: aqua;
+}
+
+/*
+
+==================
+
+Sidebar ENDE
+
+==================
+
+*/

@@ -1,124 +1,78 @@
 *{
-    font-family: serif;
-    margin: 0px;
+    margin: 0%;
 }
-.navigation-bar{
+/*
+
+==================
+
+Sidebar navigation
+
+==================
+
+*/
+.mainside{
     background-color: #111213;
     width: 150px;
     height: 100vh;
-    position: relative;
 }
-
-.navigation-bar a {
-    font-size: 18px;
-    position: fixed;
-    text-decoration: none;
+.navigation-bar{
+    position: absolute;
+    top: 40%;
 }
-hr{
-    height: 1px;
-    background-color: #6F6E6E;
-    border: none;
-    position: relative;
-    right: 40px;  
+.navigation-list{
     width: 150px;
 }
-
-.navigation-list ul{
-    position: relative;
-    top: 100px;
-    background-color: #111213;
+.navigation-ul1{
+    display: contents;
+    width: 150px;
+    text-align: center;
 }
-
+.navigation-ul1 a{
+    color: #CCCCCC;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navigation-ul1 a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.navigation-ul1 hr{
+    width: 150px;
+    background-color: #6F6E6E;
+    height: 1px;
+    border: none;
+}
 .navigation-ul1 li{
     position: relative;
-    top: 11px;
-    display: block;
-    justify-content: space-between;
-    height: 45px;
+    top: 16px;
+    height: 55px;
 }
 .navigation-ul2 li{
     position: relative;
+    top: 70px;
+    scale: 1.2;
     display: inline-block;
     justify-content: space-between;
-    width: 28px;
-    top: 70px;
-    right: 5px;
+    width: 32px;
+    right: 6%;
 }
-.navigation-ul2{
-    position: relative;
-    bottom: 1px;
+.navigation-ul2 a{
+    color: #CCCCCC;
+    
 }
-
-.navigation-ul2 li:hover{
+.navigation-ul2 a:hover{
     color: aqua;
 }
 
-.navigation-ul1 li a{
-    color: #CCCCCC;
-    padding: 0 0 0 80px;
-    text-decoration: none;
-    position: relative;
-    right: 80px;
-}
-.navigation-ul2 li a{
-    color: #CCCCCC;
-    text-decoration: none;
-    position: relative;
-    right: 5px;
-}
+/*
 
-.navigation-list li a:hover{
-    color: aqua;
-    text-decoration: none;
-}
-.toggle-button{
-    position:absolute;
-    top: 1.3rem;
-    right: 2rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-.toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-@media (max-width: 950px){
-    .toggle-button{
-        display: flex;
-    }
-    .navigation-list {
-        display: none;
-    }
-    .navigation-bar {
-        flex-direction: column;
-        align-items: flex-start;
-        height: 70px;
-    }
-    .navigation-list ul{
-        width: 100%;
-        flex-direction: column;
-        margin: 80px;
-    }
-    .navigation-list li {
-        text-align: center;
-        padding: 7px;
-    }
-    .navigation-list li a{
-        padding: .5rem 1rem;
-        font-size: 17px;
-    }
-    .navigation-list.active{
-        display: block;
-    }
-    .navigation-bar.active{
-        height: 170px;
-    }
-}
+==================
+
+Sidebar ENDE
+
+==================
+
+*/
 .felixicon{
     position:relative;
     background-color: #111213;
@@ -131,7 +85,7 @@ h1
     display: flex;
     position: relative;
     left: 18vw;
-    bottom: 26vh;
+    bottom: 16vh;
     color: #f1f3f9;
     font-size: 80px;
     font-family: Calibri ;
@@ -142,10 +96,10 @@ h1
 .s2div2 {
     position: relative;
     left: 19vw;
-    bottom: 24vh;
+    bottom: 16vh;
     color: #8f96a3;
     font-size: 25px;
-    width: 2000px;
+    width: 800px;
     font-family: monospace;
 }
 
@@ -157,7 +111,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 40vh;
+    bottom: 23vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-1 {
@@ -165,7 +119,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 26vh;
+    bottom: 16vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-2 {
@@ -173,7 +127,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 24vh;
+    bottom: 17vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-3 {
@@ -181,7 +135,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 23.5vh;
+    bottom: 15.5vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-4 {
@@ -189,7 +143,7 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 23.7vh;
+    bottom: 15.7vh;
     font-family: 'La Belle Aurore', cursive;
 }
 .mb-30 {
@@ -197,6 +151,6 @@ ALL HEADER
     position: relative;
     left: 17vw;
     font-size: 17px;
-    bottom: 0vh;
+    bottom: 8vh;
     font-family: 'La Belle Aurore', cursive;
 }
