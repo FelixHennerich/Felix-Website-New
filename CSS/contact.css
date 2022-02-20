@@ -1,6 +1,13 @@
 *{
     margin: 0%;
 }
+.background{
+    position: absolute;
+    left: 150px;
+    opacity: 0.3;
+    width: 92.1vw;
+    height: 100%;
+}
 
 /*
 
@@ -81,3 +88,78 @@ Sidebar ENDE
 ==================
 
 */
+/*
+
+==================
+
+Contact Form Start
+
+==================
+
+*/
+.conform{
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 17px;
+    height: 70vh;
+    color: #CCCCCC;
+    width: 30vw;
+    left: 39%;
+    top: 12vh;
+    background-color: black;
+    
+}
+.conform p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+.conform form{
+    position: relative;
+    top: 180px;
+    text-align: center;
+    scale: 2;
+}
+
+/*
+
+==================
+
+Contact Form ENDE
+
+==================
+
+*/
+@media (max-width: 1700px){
+    .conform form{
+        scale: 1.5;
+        top: 110px;
+    }
+    .conform {
+        height: 60vh;
+    }
+}
+@media (max-width: 1400px){
+    .conform form{
+        scale: 1;
+        top: 110px;
+    }
+    .conform {
+        height: 60vh;
+    }
+}
+@media (max-width: 1000px){
+    .conform form{
+        scale: .5;
+        top: 110px;
+    }
+    .conform {
+        height: 60vh;
+    }
+}
+@media (max-height: 800px){
+    .conform form{
+        scale: 1.5;
+    }
+}
