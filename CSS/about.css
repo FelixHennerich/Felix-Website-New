@@ -80,3 +80,50 @@ Sidebar ENDE
 ==================
 
 */
+
+.rect{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top:200px;
+    left: 500px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        left: 500px;
+        top: 200px;
+    }
+    70%,80%{
+        left: 1000px;
+        top: 400px;
+    }
+}
+.textdiv{
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    animation: animatediv 5s linear infinite;
+}
+@keyframes animatediv{
+    100%{
+        height: 100px;
+    }
+}
+.text{
+    color: white;
+    font-size: 50px;
+    width: 10px;
+}
+.text:hover{
+    animation: animatetext 1s linear infinite;
+}
+@keyframes animatetext{
+    100%{
+        scale: 2;
+    }
+}

@@ -98,7 +98,16 @@ h1
     font-family: Calibri ;
 }
 .s2div1 p:hover{
+    animation: animateletter 0.5s linear 1;
     color: aqua;
+}
+@keyframes animateletter{
+    0%,100%{
+        scale: 1;
+    }
+    80%{
+        scale: 1.5;
+    }
 }
 .s2div2 {
     position: relative;
