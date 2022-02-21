@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+}
+.background{
+    position: absolute;
+    left: 150px;
+    opacity: 0.3;
+    width: 92.1vw;
+    height: 100%;
+}
+/*
+
+==================
+
+Sidebar navigation
+
+==================
+
+*/
+.mainside{
+    background-color: #111213;
+    width: 150px;
+    height: 100vh;
+}
+.navigation-bar{
+    position: absolute;
+    top: 40%;
+}
+.navigation-list{
+    width: 150px;
+}
+.navigation-ul1{
+    display: contents;
+    width: 150px;
+    text-align: center;
+}
+.navigation-ul1 a{
+    color: #CCCCCC;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navigation-ul1 a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.navigation-ul1 hr{
+    width: 150px;
+    background-color: #6F6E6E;
+    height: 1px;
+    border: none;
+}
+.navigation-ul1 li{
+    position: relative;
+    top: 16px;
+    height: 55px;
+}
+.navigation-ul2 li{
+    position: relative;
+    top: 70px;
+    scale: 1.2;
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    right: 6%;
+}
+.navigation-ul2 a{
+    color: #CCCCCC;
+    
+}
+.navigation-ul2 a:hover{
+    color: aqua;
+}
+
+/*
+
+==================
+
+Sidebar ENDE
+
+==================
+
+*/
+
+.rect{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top:200px;
+    left: 500px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        left: 500px;
+        top: 200px;
+    }
+    70%,80%{
+        left: 1000px;
+        top: 400px;
+    }
+}
+.textdiv{
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    animation: animatediv 5s linear infinite;
+}
+@keyframes animatediv{
+    100%{
+        height: 100px;
+    }
+}
+.text{
+    color: white;
+    font-size: 50px;
+    width: 10px;
+}
+.text:hover{
+    animation: animatetext 1s linear infinite;
+}
+@keyframes animatetext{
+    100%{
+        scale: 2;
+    }
+}

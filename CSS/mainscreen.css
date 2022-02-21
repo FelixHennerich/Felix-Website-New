@@ -20,7 +20,7 @@ Sidebar navigation
 .mainside{
     background-color: #111213;
     width: 150px;
-    height: 100vh;
+    height: 110vh;
 }
 .navigation-bar{
     position: absolute;
@@ -99,7 +99,6 @@ h1
 }
 .s2div1 p:hover{
     animation: animateletter 0.5s linear 1;
-    color: aqua;
 }
 @keyframes animateletter{
     0%,100%{
