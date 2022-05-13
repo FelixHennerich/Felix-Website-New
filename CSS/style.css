@@ -1,3 +1,14 @@
 body{
     background-color:#1d1e20;
+    /* The image used */
+background-image: url("../img/Website\ background.png");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode:difference;
 }
