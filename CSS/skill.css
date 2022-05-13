@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+}
+/*
+
+SLIDER SHOW ANIMATION START
+
+*/
+.sliderdiv{
+    position: absolute;
+    left: 20%;
+    top: 4%;
+}
+.slider-frame{
+    overflow: hidden;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    left: 25%;
+}
+@-webkit-keyframes slide_animation{
+    0% {bottom:0px}
+    10% {bottom:0px}
+    20% {bottom:700px}
+    30% {bottom:1400px}
+    40% {bottom:2100px}
+    50% {bottom:2800px}
+    60% {bottom:3500px}
+    70% {bottom:0px}
+    80% {bottom:0px}
+    90% {bottom:0px}
+    100% {bottom:0px}
+}
+
+.slide-images{
+    width: 4200px;
+    height: 700px;
+    margin: 0 0 0 --4000px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+/*
+
+SLIDER SHOW ANIMATION END
+
+*/
+/*
+
+==================
+
+Sidebar navigation
+
+==================
+
+*/
+.mainside{
+    background-color: #111213;
+    width: 150px;
+    height: 100vh;
+}
+.navigation-bar{
+    position: absolute;
+    top: 40%;
+}
+.navigation-list{
+    width: 150px;
+}
+.navigation-ul1{
+    display: contents;
+    width: 150px;
+    text-align: center;
+}
+.navigation-ul1 a{
+    color: #CCCCCC;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navigation-ul1 a:hover{
+    color: aqua;
+    font-size: 20px;
+}
+.navigation-ul1 hr{
+    width: 150px;
+    background-color: #6F6E6E;
+    height: 1px;
+    border: none;
+}
+.navigation-ul1 li{
+    position: relative;
+    top: 16px;
+    height: 55px;
+}
+.navigation-ul2 li{
+    position: relative;
+    top: 70px;
+    scale: 1.2;
+    display: inline-block;
+    justify-content: space-between;
+    width: 32px;
+    right: 6%;
+}
+.navigation-ul2 a{
+    color: #CCCCCC;
+    
+}
+.navigation-ul2 a:hover{
+    color: aqua;
+}
+
+/*
+
+==================
+
+Sidebar ENDE
+
+==================
+
+*/
